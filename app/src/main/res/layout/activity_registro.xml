@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         android:background="#32000000">
+         >
 
         <ImageView
             android:id="@+id/imgUsuario"
@@ -31,7 +31,7 @@
             android:textColorHint="#5d5d5d"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="25dp"
+            android:autoSizeTextType="uniform"
             android:background="@drawable/lllbl"/>
         <EditText
             android:id="@+id/txtRegContra"
@@ -45,7 +45,7 @@
             android:textColorHint="#5d5d5d"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="25dp"
+            android:autoSizeTextType="uniform"
             android:background="@drawable/lllbl"/>
         <EditText
             android:id="@+id/txtRegCorreo"
@@ -59,19 +59,19 @@
             android:textColorHint="#5d5d5d"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="25dp"
+            android:autoSizeTextType="uniform"
             android:background="@drawable/lllbl"/>
         <Button
             android:id="@+id/btnRegRegistro"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_width="499sp"
+            android:layout_height="80dp"
             android:layout_marginHorizontal="30sp"
             android:layout_below="@id/txtRegCorreo"
             android:layout_marginTop="100dp"
             android:text="Registrarme"
             android:textColor="#E2EAE8"
             android:background="@drawable/btn1"
-            android:paddingBottom="8sp"
+            android:paddingBottom="10sp"
             android:textSize="20sp"/>
     </RelativeLayout>
 

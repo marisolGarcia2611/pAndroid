@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="20dp"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     app:layout_insetEdge="bottom">
@@ -12,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="75sp"
             android:text="Permiso de internet"
-            android:background="#4F6E9E"
+            android:background="#F74F6E9E"
             android:textSize="25sp"
             android:textColor="#F6F3FA"
             android:padding="9sp"/>
